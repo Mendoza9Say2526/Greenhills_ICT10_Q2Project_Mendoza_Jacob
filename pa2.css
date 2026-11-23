@@ -1,0 +1,153 @@
+
+body {
+margin: 0;
+padding: 0;
+min-height: 100vh;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+background: linear-gradient(135deg, #eee7ff, #f8f5ff, #e4dcff);
+color: #30234a;
+align-items: center;
+flex-direction: column;
+display: flex;
+}
+
+
+form {
+max-width: 380px;
+margin: 0 auto;
+padding: 15px 25px;
+background: #ffffff;
+border-radius: 16px;
+box-shadow: 0 8px 25px rgba(74, 43, 125, 0.10);
+}
+
+h3 {
+margin: 5px 0 20px;
+font-size: 25px;
+color: #6c3dc5;
+letter-spacing: 0.5px;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 13px 15px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid #e3d8f8;
+border-radius: 10px;
+background-color: #faf8ff;
+font-size: 14px;
+color: #30234a;
+outline: none;
+transition: 0.25s ease;
+}
+
+
+input[type="text"] {
+border-color: #8b5cf6;
+background-color: #ffffff;
+box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.13);
+}
+
+
+input::placeholder {
+color: #a49ab7;
+}
+
+
+input[type="button"] {
+width: 100%;
+padding: 13px;
+margin-top: 12px;
+border: none;
+border-radius: 10px;
+background: linear-gradient(135deg, #8b5cf6, #6c3dc5);
+color: #ffffff;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+transition: 0.25s ease;
+}
+
+
+input[type="button"] {
+background: linear-gradient(135deg, #7541db, #5425a5);
+transform: translateY(-2px);
+box-shadow: 0 5px 14px rgba(108, 61, 197, 0.25);
+}
+
+
+#results {
+max-width: 430px;
+margin: 25px auto;
+padding: 22px;
+box-sizing: border-box;
+background: #ffffff;
+border: 1px solid #e5d9fa;
+border-radius: 16px;
+box-shadow: 0 8px 25px rgba(74, 43, 125, 0.10);
+color: #49366b;
+font-size: 15px;
+line-height: 1.9;
+overflow-wrap: anywhere;
+}
+
+
+@media (max-width: 480px) {
+body {
+padding: 30px 15px;
+}
+
+form {
+    padding: 15px 18px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+#results {
+    padding: 18px;
+}
+
+}
+
+.custom-nav {
+    background-color: bisque;
+    width: 100%;
+    align-self: stretch;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.custom-nav .nav-link {
+    color: #333;
+}
+
+.custom-nav .nav-link:hover {
+    color: #2563eb;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 5px;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.me img {
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Project</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm custom-nav">
+    <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" py-click = "skills_test">Skills Test</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" py-click = "pa_2">PA 2</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" py-click = "drill_2">Drill 2</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" py-click = "creator_page">Creator Page</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" py-click = "home_page">Home Page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>The Nickname Atlas of Southeast Asia</h1>
+    <h2>Select a Southeast Asian country.</h2>
+    <div class="box">
+        <select id="country">
+            <option value="Land of Unexpected Treasures">Brunei</option>
+            <option value="Kingdom of Wonder">Cambodia</option>
+            <option value="Emerald of the Equator">Indonesia</option>
+            <option value="Land of a Million Elephants">Laos</option>
+            <option value="Land of Diversity">Malaysia</option>
+            <option value="The Golden Land">Myanmar</option>
+            <option value="The Welcoming Home">Philippines</option>
+            <option value="The Lion City">Singapore</option>
+            <option value="Land of Smiles">Thailand</option>
+            <option value="Land of the Crocodile">Timor-Leste</option>
+            <option value="Land of the Blue Dragon">Vietnam</option>
+        </select>
+
+        <button type="button" py-click = "reveal_nickname">
+            Reveal the Nickname!
+        </button>
+
+        <div id="div1"></div>
+    </div>
+<py-script src = "project.py"></py-script>
+</body>
+</html>
